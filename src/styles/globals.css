@@ -1,12 +1,27 @@
+:root {
+	--ochre-50: #fdf7ed;
+	--ochre-100: #f8e8cd;
+	--ochre-200: #f1d096;
+	--ochre-300: #e9b360;
+	--ochre-400: #e4993b;
+	--ochre-500: #d87723;
+	--ochre-600: #c25a1d;
+	--ochre-700: #a13f1c;
+	--ochre-800: #84321c;
+	--ochre-900: #6d2a1a;
+	--ochre-950: #3e130a;
+}
+
 * {
 	margin: 0;
+	color: var(--ochre-950);
 }
 
 a {
-  text-decoration: none;
-  color: #1a1a1a;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
+	color: var(--ochre-900);
 }

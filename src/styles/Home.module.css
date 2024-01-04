@@ -1,14 +1,15 @@
 .main {
 	display: flex;
 	justify-content: center;
+	background: var(--ochre-200);
 }
 
 .island {
 	display: flex;
 	flex-direction: column;
 	width: 80vw;
-	background-color: #dadada;
-	border: 1px solid;
+	background: var(--ochre-100);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
@@ -31,7 +32,7 @@
 
 .content > * {
 	text-align: center;
-  margin: 5rem;
+	margin: 5rem;
 }
 
 .content div h1 {
@@ -64,9 +65,25 @@
 	margin-top: 4rem;
 	margin-bottom: 10rem;
 	height: 3rem;
+	background-color: var(--ochre-500);
+	color: var(--ochre-950);
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.3s;
+	scale: 1;
+}
+
+.intro button:hover {
+	scale: 1.1;
+	background-color: var(--ochre-300);
+	cursor: pointer;
+}
+
+.intro button:active {
+	background-color: var(--ochre-500);
 }
 
 .footer {
-  text-align: center;
-  background-color: #b5b5b5;
+	text-align: center;
+	border-top: 1px solid;
 }
